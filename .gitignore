@@ -1,0 +1,9 @@
+# Environments
+.venv/
+__pycache__/
+
+# Build artifacts
+dist/
+build/
+*.spec
+*.log
