@@ -53,4 +53,3 @@ python src/app.py
 
 * **Flatlining Metrics (0%):** This is a hardware safety feature. If the internal **Signal Quality Indicator** (located above the Brain Map) reads anything other than *"Signal: Excellent"*, the headset forces the Attention and Meditation metrics to output exactly `0%` to prevent false data generation. *Adjust the metal sensor until it sits flush against your forehead.*
 * **Administrator Privileges:** Due to deep OS-level integration, controlling your literal Windows Mouse Cursor with your brain (`Mouse Control` toggle) requires the application to be run as an Administrator to bypass Microsoft UIPI security protocols.
-* **Dark Mode Independence:** AetherEEG utilizes custom, hardcoded cascading stylesheets to completely override your underlying Windows 11 themes, guaranteeing the medical-grade white aesthetic never breaks or "ghosts" when used on a Dark Mode PC.
