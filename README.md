@@ -1,13 +1,11 @@
 # AetherEEG
-**Developed by Dr. Jcarl Juson**
-
-A professional, clinical-grade real-time EEG (Electroencephalography) visualization and recording suite. AetherEEG bridges proprietary hardware sensors with a pristine, modern, Apple-inspired interface to interpret the brain's biological signals into actionable data. 
+**Developed by Jcarl Juson**
 
 Currently optimized for NeuroSky MindWave headsets (eSense protocol), this application parses both raw brainwaves and pre-calculated focus metrics to provide a powerful analytical and interactive platform for researchers, developers, and enthusiasts.
 
 ---
 
-## 🌟 Core Features
+## Core Features
 
 * **Live Telemetry & Waveforms:** Seamless real-time plotting of absolute Raw EEG spikes, alongside live tracking of separated clinical rhythms: **Alpha, Beta, Delta, and Theta waves**.
 * **Spectral Power Density:** An interactive, highly responsive 8-band frequency area plot mapping Delta, Theta, Low/High Alpha, Low/High Beta, and Low/Mid Gamma ranges simultaneously.
@@ -19,7 +17,7 @@ Currently optimized for NeuroSky MindWave headsets (eSense protocol), this appli
 
 ---
 
-## 🔬 Scientific Recording Pipeline
+## Scientific Recording Pipeline
 
 AetherEEG features a robust toolset built specifically for data collection and dataset generation for Machine Learning models or scientific study:
 
@@ -30,7 +28,7 @@ AetherEEG features a robust toolset built specifically for data collection and d
 
 ---
 
-## 🚀 How to Run the App
+## How to Run the App
 
 AetherEEG is designed to be completely plug-and-play. Choose whichever launch method works best for your environment!
 
@@ -51,7 +49,7 @@ python src/app.py
 
 ---
 
-## ⚠️ Troubleshooting & Important Notes
+## Troubleshooting & Important Notes
 
 * **Flatlining Metrics (0%):** This is a hardware safety feature. If the internal **Signal Quality Indicator** (located above the Brain Map) reads anything other than *"Signal: Excellent"*, the headset forces the Attention and Meditation metrics to output exactly `0%` to prevent false data generation. *Adjust the metal sensor until it sits flush against your forehead.*
 * **Administrator Privileges:** Due to deep OS-level integration, controlling your literal Windows Mouse Cursor with your brain (`Mouse Control` toggle) requires the application to be run as an Administrator to bypass Microsoft UIPI security protocols.
