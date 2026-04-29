@@ -1,7 +1,7 @@
 # AetherEEG
 **Developed by Jcarl Juson**
 
-This is AetherEEG by Jcarl
+This is AetherEEG by Jueshin
 
 Currently optimized for NeuroSky MindWave headsets (eSense protocol), this application parses both raw brainwaves and pre-calculated focus metrics to provide a powerful analytical and interactive platform for researchers, developers, and enthusiasts.
 
